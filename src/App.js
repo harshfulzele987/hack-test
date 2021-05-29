@@ -1,6 +1,6 @@
 import './App.css';
 import {Navbar,Nav,NavDropdown} from 'react-bootstrap';
-
+import Statewise from "./components/Statewise/statewise" ;
 
 function App() {
   return (
@@ -30,6 +30,7 @@ function App() {
     </Nav>
   </Navbar.Collapse>
 </Navbar>
+<Statewise/>
 <footer>
   <div className="copyright">
     <p>&#169; 2020 - Organisation</p>

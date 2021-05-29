@@ -36,3 +36,87 @@
     transform: rotate(360deg);
   }
 }
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/* Colors */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  /* @include box-sizing(border-box); */
+}
+
+
+footer {
+  width: 100%;
+  display: inline-block;
+  margin: 2em 0;
+  height: 70px;
+  background-color: #999;
+  
+}
+.copyright {
+  width: 50%;
+  float: left;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+}
+.linked {
+  background-color: #1E83AE;
+  font-size: 1.2rem;
+  width: 20%;
+  
+}
+
+.face {
+  background-color: #3D5B94;
+  font-size: 1.2rem;
+  width: 20%;
+  color: white;
+}
+
+.tweet {
+  background-color:#3DACDD;
+  font-size: 1.2rem;
+  width: 20%;
+  color: white;
+}
+
+.support {
+  background-color: #6dcd9a;
+  font-size: 0.8em;
+  width: 20%;
+  color: white;
+}
+
+p {
+  padding-left: 10%;
+  color: white;
+  font-size: 0.7em;
+  line-height: 70px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  @media (max-width: 600px) {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+a {
+  float: left;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: bold; 
+
+}
+.social {
+  width: 50%;
+  float: right;
+}
